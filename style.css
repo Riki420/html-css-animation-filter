@@ -39,8 +39,16 @@
 .ex-4-square {
     width: 100px;
     height: 100px;
-    background: red;
+    background: #ff0000;
+    transition: 4s;
 }
+
+.ex-4-square:hover{
+    opacity: 0;
+}
+
+/*Esercizio 5*/
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
